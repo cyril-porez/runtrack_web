@@ -1,0 +1,11 @@
+p {
+    padding-left: 30px;
+}
+
+p::before {
+    content: '👺👺👺';
+}
+
+p::after {
+    content: '💀💀💀';
+}

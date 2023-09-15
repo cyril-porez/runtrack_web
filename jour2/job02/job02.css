@@ -1,0 +1,26 @@
+:root {
+    --main-color: red;
+}
+
+h1 {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2[class~="titre"] {
+    color: brown;
+    font-size: 30px;
+
+}
+
+.title {
+    color: var(--main-color);
+}
+
+#lorem {
+    color: rgb(8, 8, 135);
+}
+
+section:hover {
+    background-color: aqua;
+}

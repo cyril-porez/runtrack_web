@@ -1,0 +1,31 @@
+div[class ="line"] {
+    display: flex;
+    
+}
+
+#wrapper {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    justify-content: center;
+   
+}
+
+#wrapper img {
+    width: 400px;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex img {
+    width: 200px;
+    padding: 2px;    
+    
+}

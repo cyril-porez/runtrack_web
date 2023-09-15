@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Cela permet de centrer verticalement dans la fenêtre */
+}
+
+@keyframes rotateButton {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(100, 151, 233);
+    color: whitesmoke;
+    
+}
+
+input:hover {
+    background-color: red;
+    color: whitesmoke;
+    animation: rotateButton 0.5s infinite;
+}
